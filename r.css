@@ -1,0 +1,122 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set base font and background colors */
+html {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #615050;
+}
+
+/* Set styles for the page header */
+header {
+  background-color: #1a1b19;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #f5f5f5;
+}
+
+/* Set styles for the main content */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+section ul li p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+section form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section form input,
+section form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+section form input:focus,
+section form textarea:focus {
+  outline: none;
+  border-color: #eeecec;
+}
+
+section form button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+section form button:hover {
+  background-color: #f5f5f5;
+  color: #e9e3e3;
+}
+
+/* Set styles for the page footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

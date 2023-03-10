@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Robel Bira - Web Developer</title>
+	<link rel="stylesheet" href="r.css">
+	
+</head>
+<style>
+	body {
+	  background-image: url("photo_2021-07-10_09-49-47.jpg");
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	}
+  </style>
+<body>
+	<header>
+		<h1>Robel Bira</h1>
+		<h2>Web Developer</h2>
+		<nav>
+			<ul>
+                <li><a href="r.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+	</header>
+	<main>
+		<section id="contact">
+            <h2>Contact Me</h2>
+            <form method="POST" action="send-email.php">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required></textarea>
+                <button type="submit"> Send Message</button>
+            </form>
+        </section>
+        
+		
+	</main>
+	<footer>
+		<p>&copy; 2023 Robel Bira</p>
+	</footer>
+</body>
+</html>
